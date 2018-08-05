@@ -1,0 +1,21 @@
+{
+  "name": "basic-webpack-scss",
+  "version": "1.0.0",
+  "description": "Minimum Webpack SCSS for development",
+  "main": "",
+  "scripts": {
+    "build": "webpack --watch",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "Herwindo Artono",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
